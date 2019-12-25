@@ -1,0 +1,18 @@
+{
+  "name": "ae",
+  "version": "0.1.0",
+  "repository": "git@github.com:0918nobita/adobe-scripts.git",
+  "author": "0918nobita <nobita.0918@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "types-for-adobe": "^1.5.0",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
