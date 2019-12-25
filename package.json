@@ -1,8 +1,8 @@
 {
-  "name": "adobe-scripts",
-  "version": "0.1.0",
-  "repository": "git@github.com:0918nobita/adobe-scripts.git",
-  "author": "0918nobita <nobita.0918@gmail.com>",
-  "license": "MIT",
-  "workspaces": ["workspaces/*"]
+    "name": "adobe-scripts",
+    "repository": "git@github.com:0918nobita/adobe-scripts.git",
+    "author": "0918nobita <nobita.0918@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": ["workspaces/*"]
 }
