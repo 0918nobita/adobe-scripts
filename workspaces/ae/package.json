@@ -6,7 +6,8 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "build": "webpack --config webpack.config.js"
+        "build": "webpack",
+        "build:prod": "NODE_ENV=production webpack"
     },
     "devDependencies": {
         "ts-loader": "^6.2.1",
