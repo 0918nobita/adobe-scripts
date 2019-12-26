@@ -1,7 +1,3 @@
-class A {
-    constructor(private a: string) {
-        alert(`TypeScript で記述されたスクリプトです ${this.a}`);
-    }
-}
+import { getIsoLanguage } from './sub';
 
-new A('Hello!');
+alert(`Language: ${getIsoLanguage(app)}`);
