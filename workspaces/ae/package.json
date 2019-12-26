@@ -7,7 +7,8 @@
     "private": true,
     "scripts": {
         "build": "webpack",
-        "build:prod": "NODE_ENV=production webpack"
+        "build:prod": "NODE_ENV=production webpack",
+        "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
         "ts-loader": "^6.2.1",
