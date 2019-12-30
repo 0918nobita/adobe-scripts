@@ -1,3 +1,4 @@
 import { getIsoLanguage } from './sub';
+import { message } from './hello.bs';
 
-alert(`Language: ${getIsoLanguage(app)}`);
+alert(`${message} [Lang: ${getIsoLanguage(app)}]`);

@@ -6,11 +6,13 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "build": "webpack",
-        "build:prod": "NODE_ENV=production webpack",
+        "build": "yarn build:reason && webpack",
+        "build:prod": "yarn build:reason && NODE_ENV=production webpack",
+        "build:reason": "bsb -make-world",
         "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
+        "bs-platform": "^7.0.1",
         "ts-loader": "^6.2.1",
         "types-for-adobe": "^1.5.0",
         "typescript": "^3.7.4",
